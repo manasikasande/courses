@@ -1,18 +1,36 @@
-# Introduction to Angular
+# Angular - The Complete Guide [2023 Edition]
 
-**Angular is**
+## Course Structure
+
+- Getting Started
+- The Basics
+- Components and Databinding
+- Directives
+- Services and Dependency Injection
+- Routing
+- Observables
+- Forms
+- Pipes
+- Http
+- Authentication
+- Optimizations & NgModules
+- Deployment
+
+## Getting Started
+
+### Angular is
 
 - JavaScript Framework
 - can create reactive Single-Page-Applications (SPAs)
 
-**Reactive Single Page Applications**
+### Reactive Single Page Applications
 
 - web application that dynamically rewrites a current web page
 - web browser doesn't load entirely new pages
 - no page refresh
 - HTML code and DOM is changed by JavaScript during runtime
 
-**Angular Versioning**
+### Angular Versioning
 
 - AngularJS - Angular 1
 - Angular 2 (totally different than Angular 1)
@@ -21,16 +39,16 @@
 - New major version is released every 6 months
 - From Angular 2 onwards -> small, incremental, backwards-compatible changes
 
-**Installation Steps**
+### Installation Steps
 
 1. Install node js
 2. Open terminal as administrator
 ```
 npm install -g @angular/cli@latest
 ```
-**How to create and run application**
+### How to create and run application
 
-Steps to create a simple app with no routing:
+**Steps to create a simple app with no routing:**
 1. Open terminal as administrator
 2. navigate to project directory
 3. Run the below command.
@@ -46,8 +64,14 @@ By default, ng new creates an initial skeleton application at the root level of 
 
 Ref - [Angular Documentation](https://angular.io/guide/file-structure)
 
-Command to run the app:
+**Command to run the app:**
 
 ```
 ng serve
 ```
+### What is TypeScript ?
+
+- Super set to JavaScript
+- More features than vanilla JS (e.g Types, Classes, Interfaces,..)
+- TypeScript is compiled to JavaScript in the end
+
