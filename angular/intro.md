@@ -75,3 +75,17 @@ ng serve
 - More features than vanilla JS (e.g Types, Classes, Interfaces,..)
 - TypeScript is compiled to JavaScript in the end
 
+### Add CSS Bootstrap for styling
+
+Install package using npm
+```
+npm install --save bootstrap@3
+```
+Make config changes in angular.json file. Add the location of the css file to the styles array.
+
+```
+"styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ]
+```
