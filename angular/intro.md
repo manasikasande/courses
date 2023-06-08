@@ -28,3 +28,26 @@
 ```
 npm install -g @angular/cli@latest
 ```
+**How to create and run application**
+
+Steps to create a simple app with no routing:
+1. Open terminal as administrator
+2. navigate to project directory
+3. Run the below command.
+```
+ng new project-name --no-strict
+
+Press N when asked about routing
+default styling - CSS
+```
+When you run this command, the CLI installs the necessary Angular npm packages and other dependencies in a new workspace, with a root-level application named project-name. The workspace root folder contains various support and configuration files, and a README file with generated descriptive text that you can customize.
+
+By default, ng new creates an initial skeleton application at the root level of the workspace.
+
+Ref - [Angular Documentation](https://angular.io/guide/file-structure)
+
+Command to run the app:
+
+```
+ng serve
+```
