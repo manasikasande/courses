@@ -21,4 +21,4 @@
   - ```nav``` tag 
   - css styling
 
-- Example - [navigation-example.html](html\4-navigation-example.html)
+- Example - [navigation-example.html](html\notes\4-navigation-example.html)
