@@ -2,7 +2,7 @@
 
 - Course on LinkedIn Learning. <br>
 - Instructor: Jen Simmons
-- The [notes folder](html\notes) contains notes from this course.
+- The [notes folder](/notes) contains notes from this course.
 - Planning to solve various html challenges from other websites in the future.
 
 ## Contents
