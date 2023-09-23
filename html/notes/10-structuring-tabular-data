@@ -1,0 +1,39 @@
+# Structuring tabular data
+
+### When to use tables
+
+- Tabular data
+- Information that is best conveyed in a table
+
+### Building table rows
+
+```html
+<table>
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td>
+  </tr>
+</table>
+```
+- ```<table>``` wraps around the whole table
+- ```<tr>``` wraps around a set of elements, defining them as beloning to the same row. Attributes:
+  - ```colspan```
+  - ```rowspan```
+  - ```headers```
+- ```<th>``` defines a header for a column. Attributes:
+  - ```colspan```
+  - ```rowspan```
+  - ```scope```
+- ```<td>``` marks the actual bits of data
+- Content of the header in the first row.
