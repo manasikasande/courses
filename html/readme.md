@@ -1,5 +1,10 @@
 # HTML essential training
 
+- Course on LinkedIn Learning. <br>
+- Instructor: Jen Simmons
+- The [notes folder](html\notes) contains notes from this course.
+- Planning to solve various html challenges from other websites in the future.
+
 ## Contents
 
 1. Introduction
