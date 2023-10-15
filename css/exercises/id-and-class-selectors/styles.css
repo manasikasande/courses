@@ -1,0 +1,15 @@
+.large-text {
+    font-size: 26px;
+  }
+.button {
+    background: pink;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.button.large-text {
+   font-weight: bold;
+}
+
+#highlight {
+    background: yellow;
+}
