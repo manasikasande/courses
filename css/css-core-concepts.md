@@ -136,3 +136,72 @@ h2 {
     border: 1px solid black;
 }
 ```
+### ID Selectors
+
+- Matches to a single unique element
+- Add an id attribute to the HTML element's opening tag
+
+```html
+<header id="custom-name"> </header>
+```
+- The attribute value is the selector, starting with a number symbol
+
+```css
+#custom-name {
+
+    background: lightblue;
+}
+```
+
+### Class Selectors
+
+- matches to one more elements based on the class attribute value
+- Add a class attribute to the HTML element
+
+```html
+<p class="fancy"> Fancy paragraph </p>
+```
+- The attribute value is the selector and starts with a period (.)
+
+```css
+.fancy {
+  font-style: italic;
+}
+```
+- class names can be reused throughout the page by adding the same value to any element
+- selector matches to the class name, not the element
+- more than one class can be added to the same element
+- order of the class names doesn't matter
+- each class name must be separated by a space contained within the quotes
+
+```html
+<p class="fancy"> Fancy paragraph </p>
+<p class="highlight"> Highlighted paragraph </p>
+<p class="fancy highlight"> Fancy and highlighted paragraph </p>
+```
+**Combining selectors**
+
+- to specify a style only when both classes are present, the class selectors are combined with no space.
+
+```css
+/* only applies if "fancy" and "highlight" class are included */
+
+.fancy.highlight {
+  border: 1px solid black;
+}
+```
+```html
+
+<p class="fancy highlight"> Fancy and highlight paragraph, with a black border </p>
+```
+**Combining selector types**
+
+- different selector types can also be combined.
+
+```css
+/* only applies to an <h1> element with an ID of "intro" */
+
+h1#intro {
+  font-size: 25px;
+}
+```
